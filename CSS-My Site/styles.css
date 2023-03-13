@@ -1,0 +1,119 @@
+body{
+    background: white;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: #40514E
+}
+.top_cloud{
+    position: relative;
+    top: 50px;
+    left: 350px;
+}
+.bottom_cloud{
+    position:relative;
+    bottom: 200px;
+    right: 100px;
+}
+.mount{
+    margin-right:100px;
+}
+
+h1{
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;  /*1em=100%=16px*/   /*rem is an alternative to em as it is independent of the parent*/
+    /*width: 10%;            another way of making text centered if width is given and body is centered
+    margin: 0 auto 0 auto;*/
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+span{
+    text-decoration: underline;
+}
+h3{
+    color:  #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+.top-container{
+    background: #E9F8F9;
+    /*line-height: 8em;*/ /*space between 2 lines above and below*/
+    padding: 80px;
+}
+.middle-container{
+    padding: 100px;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    color: #EAF6F6;
+    padding: 50px;
+}
+#profilepic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.py{
+    border-radius: 50%;
+    width: 25%;
+    float:left;
+    margin: 30px;
+}
+.autocad{
+    width: 25%;
+    float:right;
+}
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    line-height: 2;
+}
+a{
+    color:  #11999E;
+    padding: 20px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: #EAF6F6;
+}
+hr{
+    border-top: 8px dotted #B2B2B2;
+    width: 5%;
+    margin: 100px auto;
+}
+.contact-me{
+    margin: 100px auto 50px auto;
+    line-height: 2;
+}
+.hobbies{
+    margin: 50px auto;
+}
+.btn{
+    position: relative;
+    top: 50px;
+    border-radius: 8px;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    padding: 10px 20px 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn:hover{
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    color: black;
+    text-decoration: underline;
+}
+.intials{
+    position:relative;
+    top: 25px;
+}
